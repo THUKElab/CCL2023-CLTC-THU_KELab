@@ -1,4 +1,8 @@
+<div align="center">
+
 # System Report for CCL23-Eval Task 7: THU KELab (sz) - Exploring Data Augmentation and Denoising for Chinese Grammatical Error Correction
+
+</div>
 
 该仓库为 CCL2023-CLTC Track 1（多维度汉语学习者文本纠错比赛）队伍 THU KELab (sz) 的解决方案。如果您认为我们的工作对您的工作有帮助，请引用我们的论文：
 
@@ -19,6 +23,11 @@
     pages = "262--270",
 }
 ```
+
+## 最新消息
+
+- [2023.11.25] 我们的最新工作 MixEdit 被 EMNLP-2023 会议录用，[该仓库](https://github.com/THUKElab/MixEdit)开源了多种面向语法纠错的数据增强策略、数据集、模型权重。欢迎大家试用~
+- [2023.11.25] 我们的最新工作 CLEME 被 EMNLP-2023 会议录用，[该工作](https://github.com/THUKElab/CLEME)提出了一种全新的语法纠错自动评估度量 CLEME，支持多种评估功能和可视化。欢迎大家试用~
 
 ## 1 简介
 
@@ -90,6 +99,10 @@ nohup bash scripts/fairseq/zho/train_ccl_close.sh -g 0
 ### 3.4 模型集成
 
 我们使用的模型集成策略请参考 [MuCGEC](https://github.com/HillZhang1999/MuCGEC)。
+
+## 联系 & 反馈
+
+如果您对本仓库有任何疑问，欢迎联系 yejh22@mails.tsinghua.edu.cn。
 
 
 
